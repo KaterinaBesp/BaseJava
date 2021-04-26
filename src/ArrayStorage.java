@@ -15,7 +15,7 @@ public class ArrayStorage {
     void save(Resume resume) {
         for (int r = 0; r < size; r++) {
             if (resume.uuid == storage[r].uuid) {
-                System.out.println("Такое резюме уже есть");
+                System.out.println("Уже сохранено");
                 return;
             }
         }
